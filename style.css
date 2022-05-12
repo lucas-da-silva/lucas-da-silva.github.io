@@ -1,0 +1,38 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+ul a {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#habilidades {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:beige;
+}
+
+#fotolucas {
+    border-radius: 150px;
+    margin-top: 18px;
+}
+
+article {
+    line-height: 23px;
+    font-size: 17px;
+}
+
+.icons {
+    width: 26px;
+    line-height: 26px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
