@@ -1,6 +1,57 @@
-h1 {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
+}
+
+body {
+    background-color:rgb(231, 231, 231);
+}
+
+#container-initial {
+    display: flex;
+}
+
+#fotolucas {
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+}
+
+#container-img {
+    margin: 20px 10% 20px 20px;
+}
+
+#container-information {
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(25, 158, 158);
+    margin: 13px 0 20px;
+    font-size: xx-large;
+}
+
+#first-h2 {
+    color: rgb(2, 95, 95);
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+.margin-small {
+    margin-left: 5px;
+}
+
+.margin-high {
+    margin-left: 10px;
 }
 
 ul a {
@@ -8,21 +59,19 @@ ul a {
     font-size: 20px;
 }
 
+#text-about {
+    margin-bottom: 20px;
+}
+
 #habilidades {
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0 20px 0;
 }
 
-body {
-    background-color:beige;
+#habilidades h2 {
+    margin-bottom: 5px;
 }
 
-#fotolucas {
-    border-radius: 150px;
-    margin-top: 18px;
-}
-
-article {
+#text-about {
     line-height: 23px;
     font-size: 17px;
 }
@@ -30,6 +79,50 @@ article {
 .icons {
     width: 26px;
     line-height: 26px;
+    margin-right: 10px;
+}
+
+#projects {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h2 {
+    margin: 0 0 10px 10px;
+}
+
+#container-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container-projects section {
+    margin: 10px 25px;
+}
+
+#container-projects section p {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#container-projects section img {
+    width: 250px;
+    height: 250px;
+}
+
+#like {
+    margin-top: 10px;
+}
+
+#like h2 {
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin-top: 15px;
 }
 
 li {

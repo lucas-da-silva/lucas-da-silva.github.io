@@ -1,1 +1,1 @@
-## Para melhor visualização do meu primeiro portfólio, clique [aqui](https://lucas-da-silva.github.io/).
+## Para visualizar o meu portfólio, clique [aqui](https://lucas-da-silva.github.io/).

@@ -1,66 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Lucas da Silva</title>
-</head>
-<body>
-    <header>
-        <h1><a hrf="#fotolucas">Lucas da Silva Nascimento Souza</a></h1>
-    </header>
-    
-    <h2> Estudante de Desenvolvimento Web</h2>
-    
-    <nav>
-        <ul>
+  </head>
+  <body>
+    <section id="container-initial">
+      <section id="container-img">
+        <img
+          id="fotolucas"
+          src="imagens/eu.jpg"
+          alt="Foto do Lucas em frente a uma janela"
+          width="300px"
+        />
+      </section>
+
+      <section id="container-information">
+        <h1>Lucas da Silva Nascimento Souza</h1>
+
+        <h2 id="first-h2">Estudante de Desenvolvimento Web</h2>
+
+        <nav>
+          <ul>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#habilidades">Habilidades e Competências</a></li>
             <li><a href="#adoro">Conteúdos que eu adoro</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
-    
-    <h2>Sobre mim:</h2>
-    <article id="sobre">
-    Sou natural de Macapá, capital do Amapá, onde moro há mais de 20 anos. <br>
-    Demorei para ter acesso à internet, foi somente em 2010 e mesmo assim, a partir dali ela fez e faz parte do meu dia a dia, desde jogos onlines a sites. A escolha de qual carreira profissional seguir não foi difícil, e venho estudando Desenvolvimento Web, pretendendo ser um desenvolvedor web. <br> <br>
-    <em>Esse sou eu: </em> 
-    </article>  
+          </ul>
+        </nav>
+      </section>
+    </section>
 
-    <img id="fotolucas" src="imagens/eu.jpg" alt="Foto do Lucas em frente a uma janela" width="300px">    
+    <h2 class="margin-small">Sobre mim:</h2>
+    <article id="text-about" class="margin-high">
+      Sou natural de Macapá, capital do Amapá, onde moro há mais de 20 anos.
+      <br />
+      Demorei para ter acesso à internet, foi somente em 2010 e mesmo assim, a
+      partir dali ela fez e faz parte do meu dia a dia, desde jogos onlines a
+      sites. A escolha de qual carreira profissional seguir não foi difícil, e
+      venho estudando Desenvolvimento Web, pretendendo ser um desenvolvedor web.
+    </article>
 
     <section id="habilidades">
-        <h2>Habilidades e Competências</h2>
-        <ul>
-            <li><img src="imagens/moedas.png" alt="Bloco de moedas do Mario" class="icons"><strong>Aprender a aprender:</strong>Gosto de estudar, principalmente conteúdos novos e não me importo de passar horas, ou dias para aprender.</li><br>  
-            <li><img src="imagens/moedas.png" alt="Bloco de moedas do Mario" class="icons"><strong>Responsabilidade:</strong> Me sinto confortável e entusiasmado quando sou responsável por fazer ou entregar algo, e me empenho para fazer o mais perfeito possível.</li><br>
-            <li><img src="imagens/moedas.png" alt="Bloco de moedas do Mario" class="icons"><strong>Empatia:</strong> Tento sempre observar e entender os sentimentos, condição e situação dos que estão ao meu redor, para que possa ajudar de forma empática e melhor a todos.</li><br>
-            <li><img src="imagens/moedas.png" alt="Bloco de moedas do Mario" class="icons"><strong>Comunicação: </strong>Busco dar atenção para ouvir e me expressar da melhor maneira, para que agrega positivamente em informações e não cause confusão ou interferência.</li>
-        </ul>
-    </section> 
-    
-    <section id="adoro">
-        <h2>Conteúdos que eu adoro</h2>
-        <ul>
-            <li><img class="icons" src="imagens/icon-youtube.png" alt="Youtube"><a href="https://www.youtube.com/c/FlowPodcast" target="_blank"><strong>Flow Podcast</strong></a></li><br>
-            <li><img class="icons" src="imagens/icon-youtube.png" alt="Youtube"><a href="https://www.youtube.com/c/FabioAkita1990" target="_blank"><strong>Fabio Akita</strong></a></li><br>
-            <li><img class="icons" src="imagens/icon-youtube.png" alt="Youtube"><a href="https://www.youtube.com/c/einerdtv" target="_blank"><strong>Ei Nerd</strong></a></li><br>
-            <li><img class="icons" src="imagens/icon-youtube.png" alt="Youtube"><a href="https://www.youtube.com/c/DiolinuxBr"><strong>Diolinux</strong></a></li><br>
-
-        </ul>
+      <h2 class="margin-small">Habilidades e Competências</h2>
+      <ul class="margin-high">
+        <li>
+          <img
+            src="imagens/icons/moedas.png"
+            alt="Bloco de moedas do Mario"
+            class="icons"
+          /><strong>Aprender a aprender: </strong>Gosto de estudar,
+          principalmente conteúdos novos e não me importo de passar horas, ou
+          dias para aprender.
+        </li>
+        <br />
+        <li>
+          <img
+            src="imagens/icons/moedas.png"
+            alt="Bloco de moedas do Mario"
+            class="icons"
+          /><strong>Responsabilidade: </strong> Me sinto confortável e
+          entusiasmado quando sou responsável por fazer ou entregar algo, e me
+          empenho para fazer o mais perfeito possível.
+        </li>
+        <br />
+        <li>
+          <img
+            src="imagens/icons/moedas.png"
+            alt="Bloco de moedas do Mario"
+            class="icons"
+          /><strong>Empatia: </strong>Tento sempre observar e entender os
+          sentimentos, condição e situação dos que estão ao meu redor, para que
+          possa ajudar de forma empática e melhor a todos.
+        </li>
+        <br />
+        <li>
+          <img
+            src="imagens/icons/moedas.png"
+            alt="Bloco de moedas do Mario"
+            class="icons"
+          /><strong>Comunicação: </strong>Busco dar atenção para ouvir e me
+          expressar da melhor maneira, para que agrega positivamente em
+          informações e não cause confusão ou interferência.
+        </li>
+      </ul>
     </section>
-    
-    <footer>
-        <h2 id="contato">Contato</h2>
-        <ul>
-            <li><img class="icons" src="/imagens/icon-gmail.png" alt="Gmail"><a href="mailto:lucasouza00012345@gmail.com" target="_blank"><strong>E-mail</strong></a></li>
-            <li><img class="icons" src="imagens/icon-github.png" alt="GitHub"><a href="https://github.com/Lucas-da-Silva" target="_blank"><strong>GitHub</strong></a></li>
-            <li><img class="icons" src="imagens/icon-linkedin.png" alt="LinkedIn"><a href="https://www.linkedin.com/feed/" target="_blank"><strong>LinkedIn</strong></a></li>
-        </ul>
-    </footer>
 
-</body>
+    <section id="projects" class="margin-small">
+      <h2>My projects</h2>
+      <article id="container-projects" class="margin-high">
+        <section>
+          <p>Lessons Learned</p>
+          <a href="./projects/trybe-lessons-learned/"
+            ><img
+              src="./imagens/projects/lessons-learned.png"
+              alt="Previa do projeto Lessons Learned"
+          /></a>
+        </section>
+
+        <section>
+          <p>Pixels Art</p>
+          <a href="./projects/trybe-pixels-art/index.html"
+            ><img
+              src="./imagens/projects/pixels-art.png"
+              alt="Previa do projeto Pixels Art"
+          /></a>
+        </section>
+
+        <section>
+          <p>Color Guess</p>
+          <a href="./projects/trybe-color-guess/index.html"
+            ><img
+              src="./imagens/projects/color-guess.png"
+              alt="Previa do projeto Color Guess"
+          /></a>
+        </section>
+
+        <section>
+          <p>Meme Generator</p>
+          <a href="./projects/trybe-meme-generator/"
+            ><img
+              src="./imagens/projects/meme-generator.png"
+              alt="Previa do projeto Meme Generator"
+          /></a>
+        </section>
+
+        <section>
+          <p>Mistery Letter</p>
+          <a href="./projects/trybe-mistery-letter/"
+            ><img
+              src="./imagens/projects/mistery-letter.png"
+              alt="Previa do projeto Mistery Letter"
+          /></a>
+        </section>
+
+        <section>
+          <p>Todo List</p>
+          <a href="./projects/trybe-todo-list/"
+            ><img
+              src="./imagens/projects/todo-list.png"
+              alt="Previa do projeto Todo List"
+          /></a>
+        </section>
+
+        <section>
+          <p>TrybeWarts</p>
+          <a href="./projects/trybe-trybewarts/"
+            ><img
+              src="./imagens/projects/trybewarts.png"
+              alt="Previa do projeto TrybeWarts"
+          /></a>
+        </section>
+      </article>
+    </section>
+
+    <section id="like" class="margin-small">
+      <h2>Conteúdos que eu adoro</h2>
+      <ul class="margin-high">
+        <li>
+          <img class="icons" src="imagens/icons/icon-youtube.png" alt="Youtube" /><a
+            href="https://www.youtube.com/c/FlowPodcast"
+            target="_blank"
+            ><strong>Flow Podcast</strong></a
+          >
+        </li>
+        <br />
+        <li>
+          <img class="icons" src="imagens/icons/icon-youtube.png" alt="Youtube" /><a
+            href="https://www.youtube.com/c/FabioAkita1990"
+            target="_blank"
+            ><strong>Fabio Akita</strong></a
+          >
+        </li>
+        <br />
+        <li>
+          <img class="icons" src="imagens/icons/icon-youtube.png" alt="Youtube" /><a
+            href="https://www.youtube.com/c/einerdtv"
+            target="_blank"
+            ><strong>Ei Nerd</strong></a
+          >
+        </li>
+        <br />
+        <li>
+          <img class="icons" src="imagens/icons/icon-youtube.png" alt="Youtube" /><a
+            href="https://www.youtube.com/c/DiolinuxBr"
+            ><strong>Diolinux</strong></a
+          >
+        </li>
+        <br />
+      </ul>
+    </section>
+
+    <footer class="margin-small">
+      <h2 id="contato">Contato</h2>
+      <ul class="margin-high">
+        <li>
+          <img class="icons" src="/imagens/icons/icon-gmail.png" alt="Gmail" /><a
+            href="mailto:lucasouza00012345@gmail.com"
+            target="_blank"
+            ><strong>E-mail</strong></a
+          >
+        </li>
+        <li>
+          <img class="icons" src="imagens/icons/icon-github.png" alt="GitHub" /><a
+            href="https://github.com/Lucas-da-Silva"
+            target="_blank"
+            ><strong>GitHub</strong></a
+          >
+        </li>
+        <li>
+          <img class="icons" src="imagens/icons/icon-linkedin.png" alt="LinkedIn" /><a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            ><strong>LinkedIn</strong></a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
