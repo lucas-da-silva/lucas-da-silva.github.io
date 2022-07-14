@@ -37,7 +37,6 @@ const createProductItemElement = ({
 };
 
 const subtractsTotalAmount = (element) => {
-  console.log(element);
   const position = element.indexOf('$') + 1;
   let number = '';
   for (let i = position; i < element.length; i += 1) {
@@ -123,10 +122,7 @@ const addEventForButtons = async () => {
 };
 
 buttonClear.addEventListener('click', () => {
-  const all = document.querySelectorAll('.cart__item').length;
-  for (let i = 0; i < all; i += 1) {
-    ol.removeChild(ol.firstChild);
-  }
+  ol.innerHTML = '';
   total.innerHTML = '0.00';
 });
 
