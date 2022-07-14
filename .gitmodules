@@ -1,3 +1,28 @@
 [submodule "projects/trybe-color-guess"]
     path = projects/trybe-color-guess
     url = git://https://github.com/lucas-da-silva/trybe-color-guess
+
+[submodule "projects/trybe-lessons-learned"]
+    path = projects/trybe-lessons-learned
+    url = git://https://github.com/lucas-da-silva/trybe-lessons-learned
+
+[submodule "projects/trybe-meme-generator"]
+    path = projects/trybe-meme-generator
+    url = git://https://github.com/lucas-da-silva/trybe-meme-generator
+
+[submodule "projects/trybe-mistery-letter"]
+    path = projects/trybe-mistery-letter
+    url = git://https://github.com/lucas-da-silva/trybe-mistery-letter
+
+[submodule "projects/trybe-pixels-art"]
+    path = projects/trybe-pixels-art
+    url = git://https://github.com/lucas-da-silva/trybe-pixels-art
+
+[submodule "projects/trybe-todo-list"]
+    path = projects/trybe-todo-list
+    url = git://https://github.com/lucas-da-silva/trybe-todo-list
+
+[submodule "projects/trybe-trybewarts"]
+    path = projects/trybe-trybewarts
+    url = git://https://github.com/lucas-da-silva/trybe-trybewarts
+
