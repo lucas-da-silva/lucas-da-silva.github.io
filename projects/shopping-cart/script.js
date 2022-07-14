@@ -123,6 +123,7 @@ const addEventForButtons = async () => {
 
 buttonClear.addEventListener('click', () => {
   ol.innerHTML = '';
+  saveCartItems(ol.innerHTML);
   total.innerHTML = '0.00';
 });
 
