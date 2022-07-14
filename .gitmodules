@@ -1,0 +1,3 @@
+[submodule "projects/trybe-color-guess"]
+    path = projects/trybe-color-guess
+    url = git://https://github.com/lucas-da-silva/trybe-color-guess
